@@ -78,7 +78,7 @@
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	/* background-image: url(../Assets/background.jpg); */
+	background-image: url(./Assets/background.jpg);
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -322,7 +322,7 @@
  .layer {
 	width: 100%;
 	height: 0;
-	background: linear-gradient(#ed467b88, var(--main-color));
+	background: linear-gradient(#ffffff00, var(--main-color));
 	position: absolute;
 	border-radius: 8px;
 	left: 0;
