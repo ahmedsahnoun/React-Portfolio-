@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../Assets/logo2.png"
+// import logo from "../Assets/logo2.png"
 
 const Header = () => {
 
@@ -11,7 +11,7 @@ const Header = () => {
 
 	return (
 		<header className={(offset > 100 && "sticky") || "header"}>
-			<a href="#home" className="logo"><img src={logo} height="40" width="100" style={{ borderRadius: '5px' }} alt="" /></a>
+			{/* <a href="#home" className="logo"><img src={logo} height="40" width="100" style={{ borderRadius: '5px' }} alt="" /></a> */}
 			<ul className="navlist">
 				<li><a href="#home" className="active">Home</a></li>
 				<li><a href="#about">About Me</a></li>
