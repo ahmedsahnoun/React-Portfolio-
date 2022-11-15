@@ -2,7 +2,7 @@ const End = () => {
   return (
     <section className="end">
       <div className="last-text">
-        <p>Copyright © 2022 by Omar CHAABOUNI All Rights Reserved.</p>
+        <p>Copyright © 2022 by Ahmed SAHNOUN All Rights Reserved.</p>
       </div>
       <div className="top">
         <a href="#home">

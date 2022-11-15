@@ -1,7 +1,19 @@
 import pic from "../Assets/portfolio1.jpg"
+import { motion } from "framer-motion"
 
-const project = (details) => {
+const project = (details, index) => {
 	return (
+		<motion.div
+			key={index}
+			initial="hidden"
+			whileInView="visible"
+			viewport={{ once: true }}
+			transition={{ duration: 0.5, delay: 0.1*index }}
+			variants={{
+				visible: { opacity: 1, x: 0 },
+				hidden: { opacity: 0, x: -70 }
+			}}
+			>
 		<div className="row">
 			<a
 				style={{ color: "inherit" }}
@@ -17,12 +29,25 @@ const project = (details) => {
 				</div>
 			</a>
 		</div>
+			</motion.div>
 	)
 }
 
 const Projects = () => {
 
 	const list = [
+		{
+			title: "a",
+			description: "b",
+			pic: pic,
+			link: ""
+		},
+		{
+			title: "a",
+			description: "b",
+			pic: pic,
+			link: "https://www.google.com"
+		},
 		{
 			title: "a",
 			description: "b",
@@ -51,7 +76,7 @@ const Projects = () => {
 					<h2><span>Latest</span> Projects</h2>
 				</div>
 				<div className="portfolio-content">
-					{list.map((x) => project(x))}
+					{list.map((x, index) => project(x, index))}
 				</div>
 			</section>
 		</>
