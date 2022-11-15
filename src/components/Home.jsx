@@ -1,27 +1,45 @@
-import vid from "../Assets/Lines - 5224.mp4"
+// import vid from "../Assets/Lines - 5224.mp4"
+import { motion } from "framer-motion"
 
 const Home = () => {
 	return (
-		<section className="home" id="home">
-			<video autoPlay muted loop id="background-video">
-				<source src={vid} type="video/mp4"/>
-			</video>
-			<div className="home-text">
-				<div className="slide">
-					<span className="one">Hello</span>
-					<span className="two">I am</span>
-				</div>
-				<h1>Ahmed SAHNOUN</h1>
-				<h3>CS<span> Engineer</span></h3>
-				<h4>FullStack Developer</h4>
-				<p>I am a full-stack mobile and web developer. I am also an AWS Cloud artichect. Making IoT solutions is my passion.<br /> Coming from a Computer Networks and Telecommunications background, I believe that I am unstoppable.</p>
-				<div className="button">
-					<a href="#contact" className="btn">Say Hello</a>  &nbsp;  &nbsp;
-					<a href="cv" download="cv/CV_Omar_CHAABOUNI_ENG.pdf" className="btn"><span><i className="bx bx-download" style={{ color: 'white' }}></i></span>&nbsp; Download my CV</a> &nbsp;  &nbsp;
-					<a href="https://github.com/ahmedsahnoun" target="_blank" rel="noopener noreferrer" className="btn" ><span><i className="bx bxl-github bx-xs" style={{ color: 'white' }}></i></span>&nbsp; Check My Work</a>
-				</div>
-			</div>
-		</section>
+		<div>
+			<motion.div
+				initial="hidden"
+				whileInView="visible"
+				viewport={{ once: true }}
+				transition={{ duration: 0.8 }}
+				variants={{
+					visible: { opacity: 1, x: 0 },
+					hidden: { opacity: 0, x: -300 }
+				}}
+			>
+				<section className="home" id="home">
+					{/* <video autoPlay muted loop id="background-video">
+					<source src={vid} type="video/mp4" />
+				</video> */}
+					<div class="home-text">
+						<div class="slide">
+							<span class="one">Hello</span>
+							<span class="two">I am</span>
+						</div>
+						<h1>Yassine</h1>
+						<h3 class="current-status">M</h3>
+						<p class="my-description">
+							Very passionate about software development.<br />
+							Even though I started my studies as an industrial engineer,<br />
+							I managed to build up my skills in software development<br />
+							and here I am now as a versatile engineer.
+						</p>
+						<div class="button">
+							<a href="./resume/Med_Yassine_Resume.pdf" download class="btn">
+								Download Resume
+							</a>
+						</div>
+					</div>
+				</section>
+			</motion.div>
+		</div>
 	);
 }
 
