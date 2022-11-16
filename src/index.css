@@ -89,7 +89,7 @@
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	background-image: url(./Assets/background.jpg);
+	background-image: url(./Assets/background.png);
 	background-size: cover;
 	background-position: center;
 	display: flex;

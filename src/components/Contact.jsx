@@ -22,7 +22,7 @@ const Contact = () => {
 						<li><a href="tel:+21650953246">+216 50953246</a></li>
 						<li><a href="mailto:ahmed.sahnoun.124@gmail.com">ahmed.sahnoun.124@gmail.com</a></li>
 					</div>
-		
+
 					<div className="contact-icons">
 						<a href="https://github.com/omar-chaabouni" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
 						<a href="https://www.linkedin.com/in/omar-chaabouni/" target="_blank" rel="noopener noreferrer"><i className='bx bxl-linkedin'></i></a>
@@ -42,11 +42,11 @@ const Contact = () => {
 			>
 				<div id="contact" className="contact-form">
 					<form action="https://formsubmit.co/ahmed.sahnoun.124@gmail.com" method="POST">
-						<input type="name" placeholder="Your Name" required/>
-						<input type="email" placeholder="Your Email Address" required/>
-						<input type="" placeholder="Your Mobile Number" required/>
+						<input type="name" placeholder="Your Name" required />
+						<input type="email" placeholder="Your Email Address" required />
+						<input type="" placeholder="Your Mobile Number" required />
 						<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
-						<input type="submit" value="Send Message" className="submit" required/>
+						<input type="submit" value="Send Message" className="submit" required />
 					</form>
 				</div>
 			</motion.div>
