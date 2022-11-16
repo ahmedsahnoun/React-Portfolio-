@@ -1,4 +1,6 @@
 import pic from "../Assets/portfolio1.jpg"
+import tictactoe from "../Assets/tictactoe.png"
+import pfe from "../Assets/PFE.png"
 import { motion } from "framer-motion"
 
 const project = (details, index) => {
@@ -39,14 +41,14 @@ const Projects = () => {
 		{
 			title: "a",
 			description: "b",
-			pic: pic,
-			link: ""
+			pic: pfe,
+			link: "https://github.com/ahmedsahnoun/PFE"
 		},
 		{
-			title: "a",
-			description: "b",
-			pic: pic,
-			link: "https://www.google.com"
+			title: "TicTacToe",
+			description: "A simple TicTacToe game to test the efficiency of different game algorithms",
+			pic: tictactoe,
+			link: "https://github.com/ahmedsahnoun/Tic-Tac-Toe"
 		},
 		{
 			title: "a",

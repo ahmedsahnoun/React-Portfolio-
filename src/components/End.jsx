@@ -1,13 +1,24 @@
 const End = () => {
 	return (
 		<section className="end">
-			<div className="last-text">
-				<p>Copyright © 2022 by Ahmed SAHNOUN All Rights Reserved.</p>
-			</div>
-			<div className="top">
-				<a href="#home">
-					<i className="bx bx-up-arrow-alt"></i>
-				</a>
+			<div class="last-text">
+				<span> Mockups by </span>
+				<a
+					class="mockup-by"
+					href="https://www.freepik.com/author/user17882893"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					user17882893</a
+				>
+				<span> & </span>
+				<a
+					class="mockup-by"
+					href="https://www.freepik.com/author/designwarrior"
+					target="_blank"
+					rel="noopener noreferrer"
+				>designwarrior on Freepik</a
+				>
 			</div>
 		</section>
 	);
