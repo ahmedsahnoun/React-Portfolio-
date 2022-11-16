@@ -10,28 +10,28 @@ const project = (details, index) => {
 			initial="hidden"
 			whileInView="visible"
 			viewport={{ once: true }}
-			transition={{ duration: 0.5, delay: 0.1 * index }}
+			transition={{ duration: 0.5, delay: 0.1*index }}
 			variants={{
 				visible: { opacity: 1, x: 0 },
 				hidden: { opacity: 0, x: -70 }
 			}}
-		>
-			<div className="row">
-				<a
-					style={{ color: "inherit" }}
-					href={details.link}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<img src={details.pic} alt="" />
-					<div className="layer">
-						<h5>{details.title}</h5>
-						<p>{details.description}</p>
-						<i className='bx bx-link-external'></i>
-					</div>
-				</a>
-			</div>
-		</motion.div>
+			>
+		<div className="row">
+			<a
+				style={{ color: "inherit" }}
+				href={details.link}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img src={details.pic} alt="" />
+				<div className="layer">
+					<h5>{details.title}</h5>
+					<p>{details.description}</p>
+					<i className='bx bx-link-external'></i>
+				</div>
+			</a>
+		</div>
+			</motion.div>
 	)
 }
 
