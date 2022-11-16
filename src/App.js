@@ -5,13 +5,11 @@ import Service from "./components/Service.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import End from "./components/End.jsx";
-import Topbar from "./components/topbar/Topbar.jsx";
 
 const App = () => {
 	return (
 		<>
 			<Header />
-			<Topbar/>
 			<Home />
 			<About />
 			<Service />

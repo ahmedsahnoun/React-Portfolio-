@@ -15,18 +15,19 @@ const Contact = () => {
 			>
 				<div className="contact-text">
 					<h2>Contact <span>Me!</span></h2>
-					<h4>If You Have Any Project In Your Mind or You're Looking For Collaboration</h4>
-					<p>I'm an IT Engineer - creating and developing solutions and acheiving diverse projects for companies all
-						across the world.</p>
+					<h4>
+						If you a have project in mind and are looking to collaborate or if any of my skills interest you,<br/>
+						feel free to reach out!
+						</h4>
 					<div className="list">
 						<li><a href="tel:+21650953246">+216 50953246</a></li>
 						<li><a href="mailto:ahmed.sahnoun.124@gmail.com">ahmed.sahnoun.124@gmail.com</a></li>
 					</div>
 
 					<div className="contact-icons">
-						<a href="https://github.com/omar-chaabouni" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
-						<a href="https://www.linkedin.com/in/omar-chaabouni/" target="_blank" rel="noopener noreferrer"><i className='bx bxl-linkedin'></i></a>
-						<a href="https://medium.com/@omar.chaabouni.11" target="_blank" rel="noopener noreferrer"><i className='bx bxl-medium'></i></a>
+						<a href="https://www.linkedin.com/in/ahmed-sahnoun-9681b1222/" target="_blank" rel="noopener noreferrer"><i className='bx bxl-linkedin'></i></a>
+						<br/><br/>
+						<a href="https://github.com/ahmedsahnoun" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
 					</div>
 				</div>
 			</motion.div>
