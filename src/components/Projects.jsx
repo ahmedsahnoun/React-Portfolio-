@@ -1,6 +1,6 @@
-import pic from "../Assets/portfolio1.jpg"
 import tictactoe from "../Assets/tictactoe.png"
 import pfe from "../Assets/PFE.png"
+import epos from "../Assets/EPOS.png"
 import { motion } from "framer-motion"
 
 const project = (details, index) => {
@@ -39,8 +39,9 @@ const Projects = () => {
 
 	const list = [
 		{
-			title: "a",
-			description: "b",
+			title: "Job Candidate Search App",
+			description: "An app that uses web scraping and natural language processing to collect candidate"+
+			" profiles and determine the best fit for a job",
 			pic: pfe,
 			link: "https://github.com/ahmedsahnoun/PFE"
 		},
@@ -51,23 +52,11 @@ const Projects = () => {
 			link: "https://github.com/ahmedsahnoun/Tic-Tac-Toe"
 		},
 		{
-			title: "a",
-			description: "b",
-			pic: pic,
-			link: ""
+			title: "EPOS Converter",
+			description: "A windows app that converts between multiple Electronic Point of Service Protocols",
+			pic: epos,
+			link: "https://github.com/ahmedsahnoun/EPOS_Converter"
 		},
-		{
-			title: "a",
-			description: "b",
-			pic: pic,
-			link: ""
-		},
-		{
-			title: "a",
-			description: "b",
-			pic: pic,
-			link: ""
-		}
 	]
 
 	return (

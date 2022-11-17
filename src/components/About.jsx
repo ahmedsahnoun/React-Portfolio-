@@ -15,7 +15,7 @@ const About = () => {
 				}}
 			>
 				<div className="about-img">
-					<img src={pic} alt="" />
+					{/* <img src={pic} alt="" /> */}
 				</div>
 			</motion.div>
 			<motion.div
@@ -32,8 +32,10 @@ const About = () => {
 					<h2>About <span>Me</span></h2>
 					<h4>CS Engineer - FullStack Developer</h4>
 					<p>
-						I am a simple tech enthusiast who found his calling as a software developer.<br/>
-						
+						I am a Computer Science engineer and tech enthusiast who found
+						his calling as a software developer.<br/><br/>
+						I have a background in Web Development, as well as Business Intelligence and I am passionate
+						about telling computers what to do and learning as much as i can along the way.
 					</p>
 				</div>
 			</motion.div>

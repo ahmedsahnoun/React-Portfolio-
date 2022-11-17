@@ -28,19 +28,24 @@ const Service = () => {
 
 	const list = [
 		{
-			icon: 'bx bx-code-alt',
-			title: "Mobile & Web Development",
-			description: "lol"
+			title: "Front-end web development",
+			icon: 'bx bx-desktop',
+			description: "I create beautiful, responsive user interfaces for applications. "
+			+"I am accustomed to using HTML, CSS, JavaScript and utilizing frameworks involving them. "
+			+"I have recently been using react which I ised to create this very page.",
 		},
 		{
-			icon: 'bx bx-code-alt',
-			title: "Mobile & Web Development",
-			description: "lol"
+			title: "Back-end web development",
+			icon: 'bx bx-server',
+			description: "I am proficient at at creating and maintaining a backend architecture "
+			+"handling business logic which includes server management, handling APIs and interacting with databases "
+			+"I am familiar with both SQL, as well as NoSQL Database Management Systems.",
 		},
 		{
-			icon: 'bx bx-code-alt',
-			title: "Mobile & Web Development",
-			description: "lol"
+			title: "Business Intelligence",
+			icon: 'bx bx-bar-chart-alt-2',
+			description: "I am familiar with Business Intelligence Analysis. I worked on various applications that involved "
+			+"Multi-Dimentinal data management and manipulation, as well as OLAP.",
 		}
 	]
 
