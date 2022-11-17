@@ -43,10 +43,9 @@ const Contact = () => {
 			>
 				<div id="contact" className="contact-form">
 					<form action="https://formsubmit.co/ahmed.sahnoun.124@gmail.com" method="POST">
-						<input type="name" placeholder="Your Name" required />
-						<input type="email" placeholder="Your Email Address" required />
-						<input type="" placeholder="Your Mobile Number" required />
-						<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+						<input name="name" placeholder="Your Name" required />
+						<input name="email" placeholder="Your Email Address" required />
+						<textarea name="details" id="details" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
 						<input type="submit" value="Send Message" className="submit" required />
 					</form>
 				</div>
