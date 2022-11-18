@@ -20,14 +20,16 @@ const Contact = () => {
 						feel free to reach out!
 						</h4>
 					<div className="list">
+						<ul>
 						<li><a href="tel:+21650953246">+216 50953246</a></li>
 						<li><a href="mailto:ahmed.sahnoun.124@gmail.com">ahmed.sahnoun.124@gmail.com</a></li>
+						</ul>
 					</div>
 
 					<div className="contact-icons">
-						<a href="https://www.linkedin.com/in/ahmed-sahnoun-9681b1222/" target="_blank" rel="noopener noreferrer"><i className='bx bxl-linkedin'></i></a>
+						<a title ="Linkedin" href="https://www.linkedin.com/in/ahmed-sahnoun-9681b1222/" target="_blank" rel="noopener noreferrer"><i className='bx bxl-linkedin'> </i></a>
 						<br/><br/>
-						<a href="https://github.com/ahmedsahnoun" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
+						<a title ="GitHub" href="https://github.com/ahmedsahnoun" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
 					</div>
 				</div>
 			</motion.div>

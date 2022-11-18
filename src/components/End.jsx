@@ -1,10 +1,10 @@
 const End = () => {
 	return (
 		<section className="end">
-			<div class="last-text">
+			<div className="last-text">
 				<span> Mockups by </span>
 				<a
-					class="mockup-by"
+					className="mockup-by"
 					href="https://www.freepik.com/author/user17882893"
 					target="_blank"
 					rel="noopener noreferrer"
@@ -13,7 +13,7 @@ const End = () => {
 				>
 				<span> & </span>
 				<a
-					class="mockup-by"
+					className="mockup-by"
 					href="https://www.freepik.com/author/designwarrior"
 					target="_blank"
 					rel="noopener noreferrer"

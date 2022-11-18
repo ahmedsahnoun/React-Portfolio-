@@ -1,4 +1,4 @@
-import pic from "../Assets/omar1.png"
+import pic from "../Assets/picture.png"
 import { motion } from "framer-motion"
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
 				}}
 			>
 				<div className="about-img">
-					{/* <img src={pic} alt="" /> */}
+					<img src={pic} alt="" />
 				</div>
 			</motion.div>
 			<motion.div
