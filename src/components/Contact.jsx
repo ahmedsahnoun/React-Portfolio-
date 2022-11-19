@@ -40,10 +40,10 @@ const Contact = () => {
 				transition={{ duration: 0.8, delay: 0.3 }}
 				variants={{
 					visible: { opacity: 1, x: 0 },
-					hidden: { opacity: 0, x: 100 }
+					hidden: { opacity: 0, x: -100 }
 				}}
 			>
-				<div id="contact" className="contact-form">
+				<div className="contact-form">
 					<form action="https://formsubmit.co/ahmed.sahnoun.124@gmail.com" method="POST">
 						<input name="name" placeholder="Your Name" required />
 						<input name="email" placeholder="Your Email Address" required />

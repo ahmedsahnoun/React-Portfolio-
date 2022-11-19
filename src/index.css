@@ -306,7 +306,7 @@
 	color: var(--text-color);
  }
  .box:hover {
-	/* transform: translateY(8px); */
+	transform: translateY(8px);
 	cursor: pointer;
 	outline: 3px solid var(--main-color);
  }
