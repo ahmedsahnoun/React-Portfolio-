@@ -48,8 +48,12 @@ const Home = () => {
 						<span>{"Engineer".split("").map((letter, index) => reveal(letter, index, null, 1.6))}</span>
 					</h3>
 					<div className="button">
-						<a href={Resume} download="Resume" className="btn">
-							Download Resume
+						<a href={Resume}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="btn"
+						>
+							View Resume
 						</a>
 					</div>
 				</div>
