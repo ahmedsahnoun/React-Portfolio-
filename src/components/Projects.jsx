@@ -1,6 +1,7 @@
 import tictactoe from "../Assets/tictactoe.png"
 import pfe from "../Assets/PFE.png"
 import epos from "../Assets/EPOS.png"
+import dealabs from "../Assets/Dealabs.png"
 import { motion } from "framer-motion"
 
 const project = (details, index) => {
@@ -54,6 +55,12 @@ const list = [
 		description: "A windows app that converts between multiple Electronic Point of Service Protocols",
 		pic: epos,
 		link: "https://github.com/ahmedsahnoun/EPOS_Converter"
+	},
+	{
+		title: "Dealabs Discord Bot",
+		description: "A Discord bot that allows the monitoring of deals on the website Dealabs.",
+		pic: dealabs,
+		link: "https://github.com/ahmedsahnoun/Dealabs-Discord-Bot"
 	},
 ]
 
