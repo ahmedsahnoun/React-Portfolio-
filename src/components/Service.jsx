@@ -39,12 +39,12 @@ const Service = () => {
 			icon: 'bx bx-server',
 			description: "I am proficient at at creating and maintaining a backend architecture "
 			+"handling business logic which includes server management, handling APIs and interacting with databases "
-			+"I am familiar with both SQL, as well as NoSQL Database Management Systems.",
+			+"I am worked with both SQL, as well as NoSQL Database Management Systems.",
 		},
 		{
 			title: "Business Intelligence",
 			icon: 'bx bx-bar-chart-alt-2',
-			description: "I am familiar with Business Intelligence Analysis. I worked on various applications that involved "
+			description: "I am knowledgeable about Business Intelligence Analysis. I worked on various applications that involved "
 			+"Multi-Dimentinal data management and manipulation, as well as OLAP.",
 		}
 	]
